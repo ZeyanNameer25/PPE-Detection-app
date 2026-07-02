@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Model weights (large binaries — track with Git LFS or distribute separately)
+*.pt
+*.pth
+*.onnx
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Temp files created at runtime
+*.mp4
+!sample_video.mp4
